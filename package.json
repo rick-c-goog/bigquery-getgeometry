@@ -1,0 +1,29 @@
+{
+  "name": "bigquery-getgeometry",
+  "version": "1.0.0",
+  "description": "Integrate with bigquery to get geometry and key field",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-c-goog/bigquery-getgeometry.git"
+  },
+  "keywords": [
+    "bigquery",
+    "tableau",
+    "geometry"
+  ],
+  "author": "Rick Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick-c-goog/bigquery-getgeometry/issues"
+  },
+  "homepage": "https://github.com/rick-c-goog/bigquery-getgeometry#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.8.0",
+    "express": "^4.17.1"
+  }
+}
