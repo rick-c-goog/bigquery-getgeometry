@@ -6,3 +6,6 @@ The app will be pulled by tableau-bigquery-wdc app,(https://github.com/rick-c-go
 . bigquery node.js client 
 . GCP serviceaccount json key file
 ## Instructions:
+
+set environment variable:
+export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
